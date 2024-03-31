@@ -1,21 +1,34 @@
-.container{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
+.container {
+    display: flex; 
+   /* flex-direction:row ; */
+   /* text-align: center; */
+   /* flex-wrap: wrap; */
+   /* justify-content: space-around; */
+   flex-flow: row wrap;
+   align-content:stretch;
 
 }
-body > div{
-    font-size: larger;
+
+body>div {
+   font-size: larger;
 }
-.item1{
-   background-color: blue; 
+
+.item1 {
+   background-color: blue;
 }
-.item2{
-    background-color: rgb(255, 0, 85); 
- }
- .item3{
-    background-color: rgb(25, 160, 70); 
- }
- .item4{
-    background-color: rgb(228, 214, 17); 
- }
+
+.item2 {
+   background-color: rgb(255, 0, 85);
+}
+
+.item3 {
+   background-color: rgb(25, 160, 70);
+}
+
+.item4 {
+   background-color: rgb(228, 214, 17);
+}
+
+.container > div{
+min-width:30px;
+}
