@@ -42,7 +42,7 @@ body>div {
 }
 
 .container > div{
-min-width:;
+min-width:1px;
 /* background-color: rgb(34, 103, 134); */
 border: 3px solid black;
 }
